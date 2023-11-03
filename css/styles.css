@@ -150,11 +150,6 @@ body {
     text-transform: uppercase;
 }
 
-.text-description:hover,
-.text-description:focus {
-    color: #4D5AE5;
-}
-
 .company-name-footer:hover,
 .company-name-footer:focus {
     color: #4D5AE5;
