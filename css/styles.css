@@ -8,13 +8,13 @@
     --button-text-color: #4D5AE5;
     --text-btn-color: #FFF;
 
-
-
 }
 
 body {
     background: #FFF;
     color: #434455;
+    font-family: Roboto;
+    sans-serif;
 }
 
 .list {
@@ -25,11 +25,9 @@ body {
     text-decoration: none;
 }
 
-/*.link {
-    text-decoration: none;
-} ====HEADER==== */
-.logo {
-    color: var(--accent-color);
+/* ====HEADER==== */
+.logo .link {
+    color: var(--button-text-color);
     font-family: Raleway;
     sans-serif;
     font-size: 18px;
@@ -37,18 +35,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+
 }
 
 .logo:hover,
 .logo:focus {
-    color: #404BBF;
-}
-
-.menu-link {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-
+    color: var(--accent-color);
 }
 
 .company-name {
@@ -73,6 +65,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .menu-link:hover,
@@ -120,7 +115,35 @@ body {
 
 
 /* ====== SECTION 1 =====*/
+
+.section-hero {
+    background-color: var(--title-text-color);
+}
+
+.main-page {
+    color: var(--text-btn-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.big-btl {
+    color: var(--text-btn-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--button-text-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 .modal-btn {
+
     border-radius: 4px;
     border: 1px solid var(--butoon-color);
     background: var(--butoon-background-color);
@@ -131,6 +154,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+
 }
 
 .modal-btn:hover,
@@ -157,10 +181,78 @@ body {
 
 /* ====== /SECTION 1 =====*/
 /* ======SECTION 2====== */
+.subtitle-name {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
 .section-title .list {
     list-style: none;
 }
 
+.lead-description {
+    color: var(--contact-color));
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/*====section 3==== */
+.caption-blok {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.caption {
+    color: var(--title-text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+/*====/section 3==== */
+/*====section 4==== */
+.blok-caption {
+    background: var(--butoon-background-color);
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
+}
+
+.card-caption {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.text-description {
+    color: var(--contact-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+/*====/section 4==== */
 .name-pic {
     color: var(--title-text-color);
     font-family: Roboto;
@@ -203,14 +295,24 @@ body {
     color: var(--accent-color);
 }
 
+.company-footer {
+    color: var(--butoon-background-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
 .text-description {
     color: var(--butoon-background-color);
     font-family: Roboto;
-    sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    width: 264px;
 }
 
 /* =====/FOOTER==== */
