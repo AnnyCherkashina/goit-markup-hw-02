@@ -200,7 +200,7 @@ body {
 
 .name-footer:hover,
 .name-footer:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .text-description {
