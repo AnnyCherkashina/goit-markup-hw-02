@@ -1,3 +1,22 @@
+:root {
+    --primari-tex-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #404BBF;
+    --contact-color: #434455;
+    --butoon-color: #E7E9FC;
+    --butoon-background-color: #F4F4FD;
+    --button-text-color: #4D5AE5;
+    --text-btn-color: #FFF;
+
+
+
+}
+
+body {
+    background: #FFF;
+    color: #434455;
+}
+
 .list {
     list-style: none;
 }
@@ -6,11 +25,11 @@
     text-decoration: none;
 }
 
-.body {}
-
-/* ====HEADER==== */
+/*.link {
+    text-decoration: none;
+} ====HEADER==== */
 .logo {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--accent-color);
     font-family: Raleway;
     sans-serif;
     font-size: 18px;
@@ -33,7 +52,7 @@
 }
 
 .company-name {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--title-text-color);
     font-family: Raleway;
     sans-serif;
     font-size: 18px;
@@ -49,7 +68,7 @@
 }
 
 .menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--title-text-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -63,7 +82,7 @@
 
 /* ====ADDRESS=== */
 .contact-mail {
-    color: var(--SLATE, #434455);
+    color: var(--primari-tex-color);
     font-family: Roboto;
     sans-serif;
     font-size: 16px;
@@ -78,7 +97,7 @@
 }
 
 .contact-phone {
-    color: var(--SLATE, #434455);
+    color: var(--contact-color);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -95,6 +114,7 @@
     font-style: normal;
 }
 
+
 /* ====/ADDRESS=== */
 /* ====/HEADER==== */
 
@@ -102,9 +122,9 @@
 /* ====== SECTION 1 =====*/
 .modal-btn {
     border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--CLOUD, #F4F4FD);
-    color: var(--IRIS, #4D5AE5);
+    border: 1px solid var(--butoon-color);
+    background: var(--butoon-background-color);
+    color: var(--button-text-color);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -116,10 +136,10 @@
 .modal-btn:hover,
 .modal-btn:focus {
     border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
+    background: var(--accent-color);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
-    color: var(--WHITE, #FFF);
+    color: var(--text-btn-color);
     text-align: center;
     font-family: Roboto;
     sans-serif;
@@ -137,11 +157,12 @@
 
 /* ====== /SECTION 1 =====*/
 /* ======SECTION 2====== */
-
-
+.section-title .list {
+    list-style: none;
+}
 
 .name-pic {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--title-text-color);
     font-family: Roboto;
     sans-serif;
     font-size: 20px;
@@ -150,12 +171,9 @@
     letter-spacing: 0.4px;
 }
 
-
-
 .desc {
-    color: var(--SLATE, #1b1d3f);
+    color: var(--primari-tex-color);
     font-family: Roboto;
-    sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -166,11 +184,11 @@
 
 /* =====FOOTER==== */
 .footer-blok {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: var(--title-text-color);
 }
 
 .name-footer {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--butoon-background-color);
     font-family: Raleway;
     sans-serif;
     font-size: 18px;
@@ -186,7 +204,7 @@
 }
 
 .text-description {
-    color: var(--CLOUD, #F4F4FD);
+    color: var(--butoon-background-color);
     font-family: Roboto;
     sans-serif;
     font-size: 16px;
