@@ -136,10 +136,6 @@ body {
     cursor: pointer;
 }
 
-.modal-btn {
-    background: var(--accent-color);
-}
-
 .modal-button {
     color: var(--button-text-color);
     text-align: center;
