@@ -46,8 +46,7 @@ body {
 
 .company-name {
     color: var(--title-text-color);
-    font-family: Raleway;
-    sans-serif;
+
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -70,7 +69,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 /* ====ADDRESS=== */
@@ -87,6 +86,19 @@ body {
     color: var(--accent-color);
 }
 
+.contakt-tel {
+    color: var(--contact-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.contakt-tel:hover,
+.contakt-tel:focus {
+    color: var(--accent-color);
+}
+
 .header-address {
     font-style: normal;
 }
@@ -94,7 +106,6 @@ body {
 /* ====/ADDRESS=== */
 /* ====/HEADER==== */
 /* ====== SECTION 1 =====*/
-
 .section-hero {
     background-color: var(--title-text-color);
 }
@@ -109,8 +120,6 @@ body {
 }
 
 .modal-btn {
-    font-family: Roboto;
-    sans-serif;
     border: 1px solid var(--butoon-color);
     background: var(--button-text-color);
     color: var(--button-text-color);
@@ -139,7 +148,6 @@ body {
     color: var(--button-text-color);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
