@@ -11,7 +11,6 @@
 
 body {
     font-family: Roboto;
-    sans-serif;
     background: #FFF;
     color: #434455;
 }
@@ -30,7 +29,6 @@ body {
 .logo {
     color: var(--button-text-color);
     font-family: Raleway;
-    sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -120,6 +118,7 @@ body {
 }
 
 .modal-btn {
+    font-family: Roboto;
     border: 1px solid var(--butoon-color);
     background: var(--button-text-color);
     color: var(--button-text-color);
@@ -142,9 +141,9 @@ body {
     background: var(--accent-color);
 }
 
+
 .modal-button {
     font-family: Roboto;
-    sans-serif;
     color: var(--button-text-color);
     text-align: center;
     font-size: 16px;
@@ -246,15 +245,12 @@ body {
 
 /* =====FOOTER==== */
 .footer-blok {
-    font-family: Raleway;
-    sans-serif;
     background: var(--title-text-color);
 }
 
 .name-footer {
     color: var(--butoon-background-color);
     font-family: Raleway;
-    sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -271,7 +267,6 @@ body {
 .company-footer {
     color: var(--butoon-background-color);
     font-family: Raleway;
-    sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
