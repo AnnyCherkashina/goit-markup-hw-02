@@ -7,15 +7,16 @@
     --butoon-background-color: #F4F4FD;
     --button-text-color: #4D5AE5;
     --text-btn-color: #FFF;
-
 }
 
 body {
+    font-family: Robotoж;
+    sans-serif;
     background: #FFF;
     color: #434455;
-    font-family: Roboto;
-    sans-serif;
 }
+
+a.logo.link {}
 
 .list {
     list-style: none;
@@ -26,7 +27,7 @@ body {
 }
 
 /* ====HEADER==== */
-.logo .link {
+.logo {
     color: var(--button-text-color);
     font-family: Raleway;
     sans-serif;
@@ -56,7 +57,7 @@ body {
 
 .company-name:hover,
 .company-name:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .menu-link {
@@ -76,44 +77,25 @@ body {
 }
 
 /* ====ADDRESS=== */
-.contact-mail {
+.contact {
     color: var(--primari-tex-color);
-    font-family: Roboto;
-    sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-    color: #404BBF;
-}
-
-.contact-phone {
-    color: var(--contact-color);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
-.contact-phone:hover,
-.contact-phone:focus {
-    color: #404BBF;
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
 }
 
 .header-address {
     font-style: normal;
 }
 
-
 /* ====/ADDRESS=== */
 /* ====/HEADER==== */
-
-
 /* ====== SECTION 1 =====*/
 
 .section-hero {
@@ -123,66 +105,60 @@ body {
 .main-page {
     color: var(--text-btn-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
-.big-btl {
-    color: var(--text-btn-color);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    border-radius: 4px;
-    background: var(--button-text-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
 .modal-btn {
     font-family: Roboto;
-    border-radius: 4px;
+    sans-serif;
     border: 1px solid var(--butoon-color);
-    background: var(--butoon-background-color);
+    background: var(--button-text-color);
     color: var(--button-text-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-
+    color: var(--text-btn-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    border-radius: 4px;
     background: var(--accent-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    color: var(--text-btn-color);
-    text-align: center;
-    font-family: Roboto;
-    sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
 }
 
 .modal-button {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
+    font-family: Roboto;
+    color: var(--button-text-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background: var(--butoon-background-color);
+    cursor: pointer;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    color: var(--text-btn-color);
+    background: var(--accent-color);
 }
 
 /* ====== /SECTION 1 =====*/
 /* ======SECTION 2====== */
 .subtitle-name {
     color: var(--title-text-color);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -195,7 +171,6 @@ body {
 
 .lead-description {
     color: var(--contact-color));
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -203,16 +178,10 @@ body {
 }
 
 /*====section 3==== */
-.caption-blok {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 .caption {
     color: var(--title-text-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -224,27 +193,20 @@ body {
 /*====section 4==== */
 .blok-caption {
     background: var(--butoon-background-color);
-    width: 1440px;
-    height: 732px;
     flex-shrink: 0;
 }
 
 .card-caption {
-    border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     display: inline-flex;
     padding-bottom: 0px;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
+
 }
 
-.text-description {
-    color: var(--contact-color);
+.text-icon {
+    color: var(--primari-tex-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -263,7 +225,6 @@ body {
 
 .name-pic {
     color: var(--title-text-color);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -272,9 +233,7 @@ body {
 
 .desc {
     color: var(--contact-color);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -304,6 +263,7 @@ body {
 .company-footer {
     color: var(--butoon-background-color);
     font-family: Raleway;
+    sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -313,12 +273,10 @@ body {
 
 .text-description {
     color: var(--butoon-background-color);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    width: 264px;
 }
 
 /* =====/FOOTER==== */
